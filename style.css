@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    font-family: "Sofia", sans-serif;
+}
+
+.top-banner{
+    height: 800px;
+    background-image: url(images/header-bg.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    height: 50%;
+    width: 35%;
+    float: left;
+    position: relative;
+    left: 20%;
+    top: 20%;
+    padding:1%;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.header-font{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.name-highlight{
+    font-size: 40px;
+    font-weight: 700;
+    color:#eb5ca3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-section{
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+.link-button{
+    text-decoration: none;
+    padding: 6px 18px;
+    background-image: linear-gradient(45deg, rgb(223, 207, 69), orange);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.top-banner-img{
+    width: 120%;
+    position: relative;
+    left: -10%;
+    top: -25%;
+}
+
+.biography-area{
+    height: 800px;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+
+.biography-img{
+    width: 110%;
+    position: relative;
+    top: -20%;
+    right: 10%;
+}
+
+#lastest-work-header{
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.Latest-work-section{
+    height: 500px;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-row {
+    display: flex;
+    justify-content: center;
+}
+
+.img-colum img{
+    width: 350px;
+    margin: 35px;
+}
+
+.footer-section{
+    height: 500px;
+    background-image: url(images/footer-bg.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.footer-section h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.owners-information{
+    margin-top: 5%;
+    opacity: 0.8;
+}
+
+#owner-name{
+    font-weight: 700;
+}
+
+#owner-designation{
+    opacity: 0.7;
+    font-size: 22px;
+}
+
+#owner-quotes{
+    font-size: 25px;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-box{
+    width: 60%;
+    height: 20%;
+    border-radius: 30px;
+    padding: 3%;
+    color: white;
+    background-color: rgb(231, 48, 140);
+}
+
+#message{
+    font-size: 27px;
+}
+
+#email{
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.copyrights{
+    margin-top: 10%;
+    font-size: 15px;
+    opacity: 0.6;
+}
